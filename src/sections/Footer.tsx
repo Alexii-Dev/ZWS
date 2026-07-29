@@ -1,4 +1,4 @@
-import { Github, Twitter, Mail } from 'lucide-react';
+import { Github, Instagram, Mail, Twitter } from 'lucide-react';
 
 const footerLinks = [
   { label: 'Inicio', href: '#inicio' },
@@ -8,6 +8,7 @@ const footerLinks = [
 ];
 
 const socialLinks = [
+  { icon: Instagram, href: 'https://www.instagram.com/zwscl/', label: 'Instagram' },
   { icon: Twitter, href: '#', label: 'Twitter' },
   { icon: Github, href: '#', label: 'GitHub' },
   { icon: Mail, href: 'mailto:desarrollo@zws.cl', label: 'Email' },
@@ -94,6 +95,8 @@ export default function Footer() {
                     key={social.label}
                     href={social.href}
                     aria-label={social.label}
+                    target={social.href.startsWith('http') ? '_blank' : undefined}
+                    rel={social.href.startsWith('http') ? 'noopener noreferrer' : undefined}
                     className="w-10 h-10 rounded-lg flex items-center justify-center transition-all duration-200 hover:bg-[var(--bg-secondary)]"
                     style={{ color: 'var(--text-secondary)' }}
                     onClick={(e) => social.href === '#' && e.preventDefault()}
