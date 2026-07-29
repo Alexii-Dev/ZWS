@@ -73,17 +73,16 @@ export default function PlanesVPN() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8 items-start">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8 items-stretch">
           {plans.map((plan, i) => (
             <div
               key={i}
-              className="relative flex flex-col rounded-lg transition-all duration-300"
+              className="relative flex h-full flex-col rounded-lg transition-all duration-300"
               style={{
                 backgroundColor: 'var(--bg-card)',
                 border: plan.recommended
                   ? '1px solid var(--accent)'
                   : '1px solid var(--border)',
-                transform: plan.recommended ? 'translateY(-20px)' : 'none',
                 boxShadow: plan.recommended
                   ? '0 0 30px rgba(55, 138, 221, 0.15), 0 8px 40px rgba(0,0,0,0.1)'
                   : 'none',
@@ -155,9 +154,8 @@ export default function PlanesVPN() {
 
               {/* CTA */}
               <a
-                href={`https://zws.cl/cart.php?a=add&pid=${i === 0 ? '1' : i === 1 ? '2' : '3'}`}
-                target="_blank"
-                rel="noopener noreferrer"
+                href={`mailto:desarrollo@zws.cl?subject=${encodeURIComponent(`Consulta sobre ${plan.name}`)}`}
+                aria-label={`Consultar por ${plan.name} a desarrollo@zws.cl`}
                 className="w-full text-center py-3 rounded font-medium text-sm transition-all duration-200"
                 style={{
                   backgroundColor: plan.recommended ? 'var(--accent)' : 'transparent',
@@ -177,7 +175,7 @@ export default function PlanesVPN() {
                   }
                 }}
               >
-                Contratar
+                desarrollo@zws.cl
               </a>
             </div>
           ))}

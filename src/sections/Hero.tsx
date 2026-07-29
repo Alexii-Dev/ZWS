@@ -324,11 +324,7 @@ export default function Hero() {
             Ver Planes VPN
           </a>
           <a
-            href="#faq"
-            onClick={(e) => {
-              e.preventDefault();
-              document.getElementById('faq')?.scrollIntoView({ behavior: 'smooth' });
-            }}
+            href="mailto:desarrollo@zws.cl?subject=Consulta%20de%20soporte%20t%C3%A9cnico"
             className="btn-ghost"
             style={{ color: '#f0f0f0', borderColor: 'rgba(240,240,240,0.3)' }}
           >
