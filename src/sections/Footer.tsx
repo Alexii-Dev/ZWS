@@ -4,13 +4,13 @@ const footerLinks = [
   { label: 'Inicio', href: '#inicio' },
   { label: 'VPN', href: '#vpn' },
   { label: 'VPS', href: '#vps' },
-  { label: 'Servicios', href: '#servicios' },
+  { label: 'Software', href: '#software' },
 ];
 
 const socialLinks = [
   { icon: Twitter, href: '#', label: 'Twitter' },
   { icon: Github, href: '#', label: 'GitHub' },
-  { icon: Mail, href: 'mailto:soporte@zws.cl', label: 'Email' },
+  { icon: Mail, href: 'mailto:desarrollo@zws.cl', label: 'Email' },
 ];
 
 export default function Footer() {
@@ -47,8 +47,7 @@ export default function Footer() {
             <img
               src="/logo.png"
               alt="ZWS"
-              className="h-8 w-auto object-contain mb-4"
-              style={{ filter: 'invert(0)' }}
+              className="theme-logo mb-4 h-8 w-auto object-contain"
             />
             <p className="text-sm leading-relaxed max-w-xs" style={{ color: 'var(--text-secondary)' }}>
               Infraestructura de hosting y VPN con IP dedicada en Chile. Seguridad, velocidad y estabilidad garantizadas.
@@ -116,7 +115,7 @@ export default function Footer() {
             © 2026 ZWS. Todos los derechos reservados.
           </p>
           <p className="font-mono-tech text-xs" style={{ color: 'var(--text-secondary)' }}>
-            Santiago, Chile
+            Concepcion, Chile
           </p>
         </div>
       </div>

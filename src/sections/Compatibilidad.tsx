@@ -28,7 +28,7 @@ export default function Compatibilidad() {
   ];
 
   return (
-    <section className="section-padding" style={{ backgroundColor: 'var(--bg-secondary)' }}>
+    <section id="compatibilidad" className="section-padding" style={{ backgroundColor: 'var(--bg-secondary)' }}>
       <div className="max-w-4xl mx-auto text-center">
         <p
           className="font-mono-tech text-xs tracking-[0.3em] mb-3"

@@ -2,7 +2,7 @@ import { Fingerprint, Users, Ban, Satellite, Home, Network } from 'lucide-react'
 
 export default function PorQueZWS() {
   return (
-    <section className="section-padding" style={{ backgroundColor: 'var(--bg)' }}>
+    <section id="por-que-zws" className="section-padding" style={{ backgroundColor: 'var(--bg)' }}>
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <p
