@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://zws.cl/sitemap.xml

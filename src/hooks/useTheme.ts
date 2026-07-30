@@ -19,6 +19,9 @@ export function useTheme() {
     } else {
       root.classList.remove('dark');
     }
+    document
+      .querySelector('meta[name="theme-color"]')
+      ?.setAttribute('content', theme === 'dark' ? '#0a0a0a' : '#ffffff');
     localStorage.setItem('zwsTheme', theme);
   }, [theme]);
 

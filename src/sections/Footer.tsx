@@ -118,7 +118,7 @@ export default function Footer() {
             © 2026 ZWS. Todos los derechos reservados.
           </p>
           <p className="font-mono-tech text-xs" style={{ color: 'var(--text-secondary)' }}>
-            Concepcion, Chile
+            Concepción, Chile
           </p>
         </div>
       </div>

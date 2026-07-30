@@ -9,6 +9,9 @@ export default function Hero() {
         src="/fondozwsoscuro.png"
         alt=""
         aria-hidden="true"
+        width="1332"
+        height="630"
+        decoding="async"
         fetchPriority="high"
         className="absolute inset-0 h-full w-full object-cover object-center"
       />
@@ -38,7 +41,7 @@ export default function Hero() {
             textShadow: '0 2px 40px rgba(0,0,0,0.8)',
           }}
         >
-          Tu IP Dedicada.
+          VPN en Chile con IP Dedicada.
           <br />
           Tu Fortaleza Digital.
         </h1>
