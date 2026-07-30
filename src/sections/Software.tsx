@@ -1,23 +1,50 @@
-import { ArrowUpRight, Code2, Database, LayoutTemplate, Mail } from 'lucide-react';
+import {
+  ArrowUpRight,
+  Code2,
+  Database,
+  LayoutTemplate,
+  Mail,
+  PanelsTopLeft,
+  ShoppingCart,
+  Wrench,
+} from 'lucide-react';
 
 const services = [
   {
     icon: LayoutTemplate,
-    title: 'Páginas web',
+    title: 'Páginas web corporativas',
     description:
-      'Sitios rápidos, modernos y adaptados a celulares, pensados para convertir visitas en oportunidades.',
+      'Sitios rápidos, modernos y adaptados a celulares, pensados para presentar tu marca y convertir visitas en oportunidades.',
+  },
+  {
+    icon: ShoppingCart,
+    title: 'Tiendas online',
+    description:
+      'Experiencias de compra claras y seguras, con catálogo, pagos e integraciones preparadas para vender.',
+  },
+  {
+    icon: PanelsTopLeft,
+    title: 'Plataformas y sistemas web',
+    description:
+      'Paneles, portales y herramientas internas construidas alrededor de los procesos reales de tu negocio.',
   },
   {
     icon: Code2,
-    title: 'Frontend completo',
+    title: 'Frontend a medida',
     description:
       'Interfaces claras y fluidas, desarrolladas a medida para representar tu marca y simplificar cada interacción.',
   },
   {
     icon: Database,
-    title: 'Backend a medida',
+    title: 'Backend, APIs e integraciones',
     description:
-      'APIs, bases de datos e integraciones robustas para que tu producto funcione de forma segura y escalable.',
+      'Lógica, bases de datos y conexiones con otros servicios para que tu producto funcione de forma segura y escalable.',
+  },
+  {
+    icon: Wrench,
+    title: 'Mantenimiento y evolución',
+    description:
+      'Mejoras, soporte técnico y nuevas funciones para mantener tu solución estable y acompañar su crecimiento.',
   },
 ];
 
@@ -41,20 +68,20 @@ export default function Software() {
               className="text-3xl font-semibold leading-tight sm:text-4xl"
               style={{ color: 'var(--text)' }}
             >
-              Software pensado para hacer crecer tu negocio
+              Desarrollo web y software de principio a fin
             </h2>
           </div>
           <p
             className="text-sm leading-relaxed sm:text-base"
             style={{ color: 'var(--text-secondary)' }}
           >
-            Creamos páginas web y productos digitales completos. Nos encargamos de todo el
-            desarrollo frontend y backend, desde la idea inicial hasta una solución lista para
-            usar.
+            Convertimos ideas y necesidades de negocio en productos digitales completos.
+            Diseñamos, desarrollamos e integramos cada parte de la solución, desde la primera
+            conversación hasta su lanzamiento.
           </p>
         </div>
 
-        <div className="mb-8 grid grid-cols-1 gap-5 md:grid-cols-3">
+        <div className="mb-8 grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
           {services.map((service) => {
             const Icon = service.icon;
             return (
@@ -103,7 +130,7 @@ export default function Software() {
             </div>
           </div>
           <a
-            href="mailto:desarrollo@zws.cl?subject=Consulta%20sobre%20desarrollo%20de%20software"
+            href="mailto:desarrollo@zws.cl?subject=Quiero%20cotizar%20un%20proyecto%20de%20desarrollo"
             className="btn-primary shrink-0"
           >
             desarrollo@zws.cl

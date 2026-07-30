@@ -4,22 +4,46 @@ import { useTheme } from '@/hooks/useTheme';
 
 const navLinks = [
   { label: 'Inicio', href: '#inicio' },
+  { label: 'Desarrollo', href: '#software' },
   { label: 'VPN', href: '#vpn' },
   { label: 'VPS', href: '#vps' },
-  { label: 'Software', href: '#software' },
   { label: 'Contacto', href: '#servicios' },
 ];
 
 const searchItems = [
   {
     title: 'Inicio',
-    description: 'VPN e infraestructura chilena con IP dedicada.',
+    description: 'Desarrollo web y software a medida en Chile.',
     href: '#inicio',
-    keywords: 'inicio portada fortaleza digital infraestructura chile',
+    keywords: 'inicio portada desarrollo digital software chile',
+  },
+  {
+    title: 'Desarrollo web y software',
+    description: 'Conoce todos nuestros servicios de desarrollo a medida.',
+    href: '#software',
+    keywords: 'desarrollo software servicios programacion proyecto a medida',
+  },
+  {
+    title: 'Páginas web y tiendas online',
+    description: 'Sitios corporativos y comercio electrónico preparados para crecer.',
+    href: '#software',
+    keywords: 'paginas sitios web ecommerce tienda online corporativa diseño',
+  },
+  {
+    title: 'Frontend y experiencia digital',
+    description: 'Interfaces rápidas, responsivas y alineadas con tu marca.',
+    href: '#software',
+    keywords: 'frontend interfaz ux ui responsive diseño marca',
+  },
+  {
+    title: 'Backend, APIs e integraciones',
+    description: 'Sistemas, bases de datos y conexiones seguras entre servicios.',
+    href: '#software',
+    keywords: 'backend api integraciones base datos sistemas plataforma',
   },
   {
     title: 'VPN con IP dedicada',
-    description: 'Conexión privada, IP chilena y baja latencia.',
+    description: 'Servicio complementario con IP chilena y baja latencia.',
     href: '#vpn',
     keywords: 'vpn ip dedicada privada chile seguridad latencia',
   },
@@ -60,16 +84,10 @@ const searchItems = [
     keywords: 'vps servidor virtual recursos dedicados proximamente',
   },
   {
-    title: 'Desarrollo de software',
-    description: 'Páginas web, frontend y backend a medida.',
-    href: '#software',
-    keywords: 'software desarrollo paginas web frontend backend programacion',
-  },
-  {
     title: 'Contacto',
-    description: 'Canales de contacto y soporte de ZWS.',
+    description: 'Cotizaciones, contacto y soporte de ZWS.',
     href: '#servicios',
-    keywords: 'contacto correo email soporte redes',
+    keywords: 'contacto correo email cotizar presupuesto soporte redes',
   },
 ];
 

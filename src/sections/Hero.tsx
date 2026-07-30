@@ -1,7 +1,7 @@
 export default function Hero() {
   return (
     <section
-      id="vpn"
+      id="desarrollo"
       className="relative w-full overflow-hidden"
       style={{ height: '100vh', minHeight: '600px' }}
     >
@@ -32,7 +32,7 @@ export default function Hero() {
           className="font-mono-tech mb-4 text-xs tracking-[0.3em] sm:text-sm"
           style={{ color: '#378ADD' }}
         >
-          INFRAESTRUCTURA CHILENA
+          DESARROLLO DIGITAL EN CHILE
         </p>
         <h1
           className="mb-6 max-w-4xl text-4xl font-semibold leading-[1.1] sm:text-5xl md:text-6xl lg:text-[5.5vw]"
@@ -41,9 +41,9 @@ export default function Hero() {
             textShadow: '0 2px 40px rgba(0,0,0,0.8)',
           }}
         >
-          VPN en Chile con IP Dedicada.
+          Desarrollo web y software
           <br />
-          Tu Fortaleza Digital.
+          para hacer crecer tu negocio.
         </h1>
         <p
           className="mb-8 max-w-xl text-base leading-relaxed sm:text-lg"
@@ -52,26 +52,33 @@ export default function Hero() {
             textShadow: '0 1px 20px rgba(0,0,0,0.6)',
           }}
         >
-          Servidores bare-metal y VPN con IP dedicada en Chile. Navegación sin fronteras,
-          latencia ultrabaja y seguridad absoluta.
+          Creamos páginas web, plataformas y soluciones digitales completas. Nos encargamos
+          del diseño, frontend, backend e integraciones para llevar tu idea a producción.
         </p>
         <div className="flex flex-wrap gap-4">
           <a
-            href="#planes-vpn"
-            onClick={(e) => {
-              e.preventDefault();
-              document.getElementById('planes-vpn')?.scrollIntoView({ behavior: 'smooth' });
-            }}
+            href="mailto:desarrollo@zws.cl?subject=Quiero%20cotizar%20un%20proyecto%20de%20desarrollo"
             className="btn-primary"
           >
-            Ver Planes VPN
+            Cuéntanos tu proyecto
+          </a>
+          <a
+            href="#software"
+            onClick={(e) => {
+              e.preventDefault();
+              document.getElementById('software')?.scrollIntoView({ behavior: 'smooth' });
+            }}
+            className="btn-ghost"
+            style={{ color: '#f0f0f0', borderColor: 'rgba(240,240,240,0.3)' }}
+          >
+            Ver servicios
           </a>
           <a
             href="mailto:desarrollo@zws.cl?subject=Consulta%20de%20soporte%20t%C3%A9cnico"
             className="btn-ghost"
             style={{ color: '#f0f0f0', borderColor: 'rgba(240,240,240,0.3)' }}
           >
-            Soporte Técnico
+            Soporte técnico
           </a>
         </div>
       </div>

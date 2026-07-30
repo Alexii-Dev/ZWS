@@ -2,9 +2,9 @@ import { Github, Instagram, Mail, Twitter } from 'lucide-react';
 
 const footerLinks = [
   { label: 'Inicio', href: '#inicio' },
+  { label: 'Desarrollo', href: '#software' },
   { label: 'VPN', href: '#vpn' },
   { label: 'VPS', href: '#vps' },
-  { label: 'Software', href: '#software' },
 ];
 
 const socialLinks = [
@@ -39,7 +39,7 @@ export default function Footer() {
           className="font-mono-tech text-5xl sm:text-7xl md:text-[100px] font-medium tracking-tighter mb-16 opacity-10 select-none"
           style={{ color: 'var(--text)' }}
         >
-          SOPORTE
+          DESARROLLO
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-16">
@@ -51,7 +51,8 @@ export default function Footer() {
               className="theme-logo mb-4 h-8 w-auto object-contain"
             />
             <p className="text-sm leading-relaxed max-w-xs" style={{ color: 'var(--text-secondary)' }}>
-              Infraestructura de hosting y VPN con IP dedicada en Chile. Seguridad, velocidad y estabilidad garantizadas.
+              Desarrollo web y software a medida en Chile. Creamos soluciones digitales
+              completas y las respaldamos con infraestructura propia.
             </p>
           </div>
 
