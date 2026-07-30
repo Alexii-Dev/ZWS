@@ -154,8 +154,8 @@ export default function PlanesVPN() {
 
               {/* CTA */}
               <a
-                href={`mailto:desarrollo@zws.cl?subject=${encodeURIComponent(`Consulta sobre ${plan.name}`)}`}
-                aria-label={`Consultar por ${plan.name} a desarrollo@zws.cl`}
+                href={`mailto:ventas@zws.cl?subject=${encodeURIComponent(`Consulta sobre ${plan.name}`)}`}
+                aria-label={`Consultar por ${plan.name} a ventas@zws.cl`}
                 className="w-full text-center py-3 rounded font-medium text-sm transition-all duration-200"
                 style={{
                   backgroundColor: plan.recommended ? 'var(--accent)' : 'transparent',
@@ -175,7 +175,7 @@ export default function PlanesVPN() {
                   }
                 }}
               >
-                desarrollo@zws.cl
+                ventas@zws.cl
               </a>
             </div>
           ))}
