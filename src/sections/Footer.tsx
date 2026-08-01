@@ -1,4 +1,4 @@
-import { ArrowUpRight, Code2, Instagram, MapPin, ShieldCheck } from 'lucide-react';
+import { ArrowUpRight, Instagram, Mail, MapPin, Phone } from 'lucide-react';
 
 const footerLinks = [
   { label: 'Inicio', href: '#inicio' },
@@ -9,16 +9,16 @@ const footerLinks = [
 
 const contactItems = [
   {
-    icon: Code2,
-    label: 'Desarrollo',
-    value: 'desarrollo@zws.cl',
-    href: 'mailto:desarrollo@zws.cl?subject=Consulta%20sobre%20desarrollo',
+    icon: Mail,
+    label: 'Correo',
+    value: 'contacto@zws.cl',
+    href: 'mailto:contacto@zws.cl',
   },
   {
-    icon: ShieldCheck,
-    label: 'Ventas VPN',
-    value: 'ventas@zws.cl',
-    href: 'mailto:ventas@zws.cl?subject=Consulta%20sobre%20VPN',
+    icon: Phone,
+    label: 'Teléfono',
+    value: '+56933803167',
+    href: 'tel:+56933803167',
   },
   {
     icon: MapPin,

@@ -41,9 +41,7 @@ export default function Hero() {
             textShadow: '0 2px 40px rgba(0,0,0,0.8)',
           }}
         >
-          Desarrollo web y software
-          <br />
-          para hacer crecer tu negocio.
+          Desarrollo web y software.
         </h1>
         <p
           className="mb-8 max-w-xl text-base leading-relaxed sm:text-lg"
